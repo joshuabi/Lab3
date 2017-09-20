@@ -3,7 +3,9 @@
     import java.net.URL;
     import java.util.Scanner;
 /**
-commwnta here
+ *
+ *
+ *
 **/
 public class anythingyoulike {
     public static String urlToString(final String url) {
