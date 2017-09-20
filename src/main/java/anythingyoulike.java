@@ -24,14 +24,14 @@ public class anythingyoulike {
        System.out.println(s);
        int count = 0;
 
-       for (int i=0;i<s.length(); i++)
+       for (int i=1;i<s.length(); i++)
        {
-           if (s.charAt(i) == ' ')
-           {
-               count++;
-           }
+           if (s.charAt(i) == ' ' || s.charAt(i)=='\n')
+               if(s.charAt(i-1) != ' ' && s.charAt(i-1)!='\n')
+               {
+                   count++;
+               }
        }
-       count++;
        System.out.println(count);
     }
 }
